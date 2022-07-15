@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Daa%kj9cjsc.0cQsWk%m">bird</variable><variable id="j9mNvw0Mbzyz!S#Bx-^t">obstacles</variable><variable id="EtnO8|@e8J]2l_}$PRex">obstacle2</variable><variable id="k]-=gXD-rj)bUkMJ?g|y">ticks</variable><variable id="Qq*#p0o(YQ0}YQeU~k-=">emptyObstacleY</variable><variable id="#RdM8gMvtsh{(Dg]DFF5">index2</variable><variable id="R8BFY}6{|n5627T;:i/I">obstacle3</variable><variable id="T8;VhyS,IPBD9-#sb[GK">index</variable></variables><block type="pxt-on-start" id="d50Xcq[}b58xX((gbZ^y" x="65" y="365"><statement name="HANDLER"><block type="soundExpression_playSoundEffect" id=";L]UmD.ex^M=%sAyXQIU"><field name="mode">SoundExpressionPlayMode.InBackground</field><value name="sound"><shadow type="soundExpression_builtinSoundEffect" id="%6@Rbx~!-f/5d=B[mlXr"><field name="soundExpression">soundExpression.happy</field></shadow></value><next><block type="controls_repeat_ext" id="ZM}x8#`;7!I9jK){NZCE"><value name="TIMES"><shadow type="math_whole_number" id="iM$w6Mz]?)N8Eq1~c)g{"><field name="NUM">2</field></shadow></value><statement name="DO"><block type="device_show_leds" id="cb_/WapUtsG?0bs^Kt#L"><field name="LEDS">`
+        # . # . # 
+        . # . # . 
+        # . # . # 
+        . # . # . 
+        # . # . #
+        `</field><next><block type="device_show_leds" id="wR;yFh8;|7mAz(ks@;g;"><field name="LEDS">`
+        . # . # . 
+        # . # . # 
+        . # . # . 
+        # . # . # 
+        . # . # .
+        `</field></block></next></block></statement><next><block type="device_show_leds" id="p;CWBzGv_ebmtZyQ+J#)"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></statement></block></xml>
